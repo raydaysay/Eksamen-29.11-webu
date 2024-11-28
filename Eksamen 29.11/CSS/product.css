@@ -1,0 +1,43 @@
+nav[aria-label="breadcrumb"] ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    gap: 5px;
+}
+
+nav[aria-label="breadcrumb"] ul li {
+    position: relative;
+}
+
+nav[aria-label="breadcrumb"] ul li:not(:last-child)::after {
+    content: ">";
+    margin-left: 5px;
+    color: #555;
+}
+
+nav[aria-label="breadcrumb"] ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.produkt-bilder img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.produkt-info > * {
+    margin-bottom: 1rem;
+}
+
+.relaterte-produkter .produkter article {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.relaterte-produkter .produkter img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}

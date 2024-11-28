@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasse</title>
+    <link rel="stylesheet" href="CSS/checkout.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="icons">
+                <input type="search" placeholder="Søk...">
+                <button type="submit" class="search-button">🔍</button>
+            </div>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="">Produkter</a></li>
+                <li><a href="index.html#populære-produkter" class="logo">LOGO</a></li>
+                <li><a href="index.html#populære-kategorier">Kategorier</a></li>
+                <li><a href="index.html#kontakt">Kontakt oss</a></li>
+                <li><a href="checkout.html" class="cart-icon">🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kasse</h1>
+        <section class="Shopping-bag">
+            <h2>1. SHOPPINGBAGEN DIN</h2>
+            <div class="produkt-kort">
+                <a href="product.html"></a>
+                    <img src="https://cdn.pixabay.com/photo/2024/05/25/05/33/ai-generated-8786355_1280.jpg" alt="Produkt-kort 1">
+                    <div class="produkt-info">
+                        <h3>Produktnavn</h3>
+                        <p>Pris: 100 NOK</p>
+                        <p>Farge: Hvit</p>
+                    </div>
+                </div>
+                <div class="produkt-kort">
+                    <a href="product.html"></a>
+                        <img src="https://cdn.pixabay.com/photo/2024/05/25/05/33/ai-generated-8786355_1280.jpg" alt="Produkt-kort 2">
+                        <div class="produkt-info">
+                            <h3>Produktnavn</h3>
+                            <p>Pris: 100 Nok</p>
+                            <p>Farge: Hvit</p>
+                        </div>
+                    </div>
+            </section>
+
+        <section class="personlig-info">
+            <h2>2. DINE OPPLYSNINGER</h2>
+            <form>
+                <label>
+                    Fornavn
+                    <input type="text" name="first-name" placeholder="Nora" required>
+                </label>
+
+                <label>
+                    Etternavn
+                    <input type="text" name="last-name" placeholder="Nordman" required>
+                </label>
+                <label>
+                    Gateadresse
+                    <input type="text" name="address" placeholder="BRA veien 4*" required>
+                </label>     
+                <label>
+                    Postnummer
+                    <input type="number" name="postal-code" placeholder="1752*" required>
+                </label>
+                <label>
+                    Poststed
+                    <input type="text" name="city" placeholder="Halden*" required>
+                </label>
+                
+                <button type="submit">Lagre</button>
+                <button type="reset">Avbryt</button>
+            </form>
+        </section>
+
+        <section class="levering">
+            <h2>3. LEVERING</h2>
+            <form>
+                <h3>LEVERINGSVALG</h3>
+                <label>
+                    Express Hjemlevering
+                    <input type="radio" name="delivery" value="express-hjemlevering">
+                </label>
+                <label>
+                    Express Pakke til Utleveringssted
+                    <input type="radio" name="delivery" value="express-pickup">
+                </label>
+                <label>
+                    Standard Hjemlevering   
+                    <input type="radio" name="delivery" value="standard-home">
+                </label>
+            </form>
+        </section>
+
+        <section class="betaling">
+            <h3>4. BETALING</h3>
+            <form>
+                <label>
+                    Kortnummer
+                    <input type="text" name="kort-nummer" maxlength="16" required>
+                </label>
+                <label>
+                    Utløpsdato
+                    <input type="month" name="utløpsdato" required>
+                </label>
+                <label>
+                    CVC/CVV
+                    <input type="number" name="cvc" maxlength="3" required>
+                </label>
+
+                <p>Å betale inkl. mva. 100 kr</p>
+                <button type="submit">Fullfør kjøp</button>
+
+                <div class="bekreftelse">
+                    <label>
+                        <input type="checkbox" name="vilkår" required>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="nyhetsbrev">
+                        Ja takk! Send nyhetsbrev til meg
+                    </label>
+                </div>
+                <p class="tillatelse-tekst">Du bekrefter herved at opplysningene og dokumentene du har 
+                    oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg 
+                    retten til å heve eller avslutte avtaleforholdet dersom det foreligger 
+                    uriktige eller ufullstendige opplysninger</p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h3>LOGO</h3>
+            <p>Et harum quidem rerum facilis est et expedita distinctio.</p>
+        </section>
+        <section id="kontakt">
+            <h3>Kontakt</h3>
+            <p>Adresse: B R A Veien 4, 1757 Halden</p>
+            <p>Telefon: 69 60 80 00</p>
+            <p>E-post: halden@hiof.no</p>
+            <p>Åpningstider: Stenger 15:00</p>
+        </section>
+        <section>
+            <h3>Snarveier</h3>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="product.html">Produkter</a></li>
+                <li><a href="#populære-Kategorier">Kategorier</a></li>
+                <li><a href="#kontakt">Kontakt oss</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Sosiale medier</h3>
+            <ul>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+                <li><a href="https://pinterest.com">Pinterest</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
