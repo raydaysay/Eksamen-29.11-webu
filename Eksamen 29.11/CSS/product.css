@@ -25,6 +25,7 @@ nav[aria-label="breadcrumb"] ul li a {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .produkt-info > * {
