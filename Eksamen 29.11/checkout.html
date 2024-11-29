@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasse</title>
-    <link rel="stylesheet" href="CSS/checkout.css">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="icons">
                 <input type="search" placeholder="Søk...">
-                <button type="submit" class="search-button">🔍</button>
+                <button type="submit" class="search-button"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
             </div>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="">Produkter</a></li>
-                <li><a href="index.html#populære-produkter" class="logo">LOGO</a></li>
+                <li><a href="index.html#populære-produkter">Produkter</a></li>
+                <li><a href="index.html" class="logo">LOGO</a></li>
                 <li><a href="index.html#populære-kategorier">Kategorier</a></li>
                 <li><a href="index.html#kontakt">Kontakt oss</a></li>
-                <li><a href="checkout.html" class="cart-icon">🛒</a></li>
+                <li><a href="checkout.html" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-solid fa-heart"></i></li>
             </ul>
         </nav>
     </header>
@@ -30,20 +32,22 @@
         <section class="Shopping-bag">
             <h2>1. SHOPPINGBAGEN DIN</h2>
             <div class="produkt-kort">
-                <a href="product.html"></a>
-                    <img src="https://cdn.pixabay.com/photo/2024/05/25/05/33/ai-generated-8786355_1280.jpg" alt="Produkt-kort 1">
+                <a href="product.html">
+                    <img src="image/picsum.jpg" alt="Produkt-kort 1">
                     <div class="produkt-info">
                         <h3>Produktnavn</h3>
                         <p>Pris: 100 NOK</p>
                         <p>Farge: Hvit</p>
                         </div>
-                         <a href="product.html"></a>
-                         <img src="https://cdn.pixabay.com/photo/2024/05/25/05/33/ai-generated-8786355_1280.jpg" alt="Produkt-kort 2">
+                        </a>
+                         <a href="product.html">
+                         <img src="image/picsum.jpg" alt="Produkt-kort 2">
                          <div class="produkt-info">
                             <h3>Produktnavn</h3>
                             <p>Pris: 100 Nok</p>
                             <p>Farge: Hvit</p>
                         </div>
+                        </a>
                     </div>
             </section>
 
@@ -117,7 +121,8 @@
 
                 <div class="bekreftelse">
                     <label>
-                        <input type="checkbox" name="vilkår" required>
+                        <input type="checkbox" name="vilkår" required> 
+                        Ja, jeg godtar vilkårene
                     </label>
                     <label>
                         <input type="checkbox" name="nyhetsbrev">
@@ -148,9 +153,10 @@
             <h3>Snarveier</h3>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="product.html">Produkter</a></li>
-                <li><a href="#populære-Kategorier">Kategorier</a></li>
-                <li><a href="#kontakt">Kontakt oss</a></li>
+                <li><a href="index.html#populære-produkter">Produkter</a></li>
+                <li><a href="index.html#populære-kategorier">Kategorier</a></li>
+                <li><a href="index.html#kontakt">Kontakt oss</a></li>
+                <li><a href="accessibility.pdf">Tilgjenglighetserklæring</a></li>
             </ul>
         </section>
         <section>
